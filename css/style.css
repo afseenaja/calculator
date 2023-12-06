@@ -1,0 +1,38 @@
+body{
+    background-color: lightgrey;
+}
+input[type="text"]{
+    height: 80px;
+    width: 100%;
+    text-align: right;
+    font-size: 30px;
+}
+input[type="submit"]{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(72, 72, 231);
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(86, 86, 185, 0.2), 0 6px 20px 0 rgba(82, 82, 180, 0.19);
+}
+input[type="submit"]:hover{
+    background-color: blue;
+}
+.col-sm-2{
+    padding: 5px;
+}
+.col-sm-2 button{
+    height: 50px;
+    width: inherit;
+    border: none;
+    /* padding: 5px; */
+    background-color: lightgrey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.col-sm-2 button:hover{
+    background-color: rgb(186, 186, 186);
+}
+img{
+    object-fit: cover;
+    height: 15px;
+    width: 15px;
+}
